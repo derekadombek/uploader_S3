@@ -1,0 +1,53 @@
+
+.login-container {
+    margin: auto;
+    width: 15%;
+    top: 30%;
+    height: 30%;
+    position: relative;
+  
+  
+  
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+  
+    margin: 0 auto 10px;
+    text-align: center;
+  
+    background: #747474ea;
+    padding: 20px;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  
+  .vertical-center {
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  
+  .login {
+    width: 70px;
+    height: 40px;
+    transition-duration: 0.4s;
+    background-color: rgba(255, 255, 255, 0.678);;
+  
+    border-radius: 8px;
+    color: black;
+    border: 1.5px solid #555555;
+    margin: 8px;
+  }
+  .login:hover {
+    background-color: #555555;
+    color: white;
+  }
+  html, body, #root, .App {
+    height: 100%;
+    background: rgb(229, 229, 229);
+  }

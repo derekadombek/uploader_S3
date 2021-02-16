@@ -1,0 +1,11 @@
+{   
+    "editor.detectIndentation": true, // useful when switching between .py and .js/.jsx files
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true // fix eslint errors in file on save
+    },
+    "eslint.workingDirectories": ["./backend", "./frontend/react-s3-fileuploader"],
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode", // specify code formatter
+        "editor.formatOnSave": true, // auto-format file with prettier on save
+    }
+ }
